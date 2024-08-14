@@ -1,0 +1,34 @@
+# Car Price Prediction
+
+## Overview
+This project predicts the price of a car based on various features such as mileage, year, engine size, and more. The prediction is performed using a Linear Regression model and the application is built using Streamlit.
+
+## Technologies Used
+- **Streamlit**: For building the interactive web app.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical operations.
+- **Scikit-learn**: For preprocessing, building the model pipeline, and evaluation.
+- **Pickle**: For loading the pre-trained model.
+
+## Features
+- **Car Price Prediction**: Predict car prices based on inputs like year, mileage, engine size, etc.
+- **Interactive UI**: Input car features and get an immediate price prediction.
+- **Performance Metrics**: Evaluate the model using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score.
+
+## Installation
+1. Clone the repository.
+2. Install required libraries using `pip install -r requirements.txt`.
+3. Run the application using `streamlit run app.py`.
+
+## Usage
+1. Enter the details of the car (year, mileage, engine size, etc.).
+2. Click on "Predict Price" to get the estimated car price.
+3. Explore the accuracy of predictions using the provided metrics.
+
+## Performance Metrics
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
+- **R-squared (R²) Score**
+
+## Developer
+- Developed by [Tajeddine Bourhim](https://tajeddine-portfolio.netlify.app/)
